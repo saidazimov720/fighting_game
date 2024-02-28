@@ -33,7 +33,7 @@ const player = new Sprite ({
     }
 })
 
-player.draw()
+
 
 const enemy = new Sprite ({
     position: {
@@ -50,5 +50,6 @@ console.log(player);
 
 function animate(){
     window.requestAnimationFrame(animate)
-    console.log('go');
+    player.update()
+    enemy.update()
 }
