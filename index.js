@@ -50,6 +50,7 @@ console.log(player);
 
 function animate() {
     window.requestAnimationFrame(animate)
+    c.clearRect()
     player.update()
     enemy.update()
 }
