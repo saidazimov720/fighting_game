@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         velocity: {
             x: 0,
-            y: 10 // Assuming the player moves downwards initially
+            y: 10 
         }
     });
 
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         velocity: {
             x: 0,
-            y: 10 // Assuming the enemy moves downwards initially
+            y: 10 
         }
     });
 
@@ -52,5 +52,5 @@ document.addEventListener('DOMContentLoaded', () => {
         enemy.update();
     }
 
-    animate(); // Start the animation loop
+    animate();
 });
